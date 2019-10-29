@@ -50,7 +50,7 @@
       "prettier --ignore-path \"./config/prettierignore\" --trailing-comma all --single-quote --write"
     ]
   },
-  "pre-commit": "lint-staged",
+  "pre-commit": "build, lint-staged",
   "dependencies": {
     "apollo-boost": "file:packages/apollo-boost",
     "apollo-cache": "file:packages/apollo-cache",
