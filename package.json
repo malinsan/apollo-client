@@ -1,6 +1,7 @@
 {
   "name": "apollo-client-monorepo",
   "private": true,
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "postinstall": "lerna exec -- npm install --package-lock=false && lerna run prepare",
